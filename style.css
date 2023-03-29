@@ -1,12 +1,38 @@
-ul {
-  list-style-type: none;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  padding-top: 3rem;
+  background-color: #d9ff91;
+}
+#secretNumber {
+  background-color: #ff8a7f;
+  color: white;
+  width: 20vw;
+  margin: auto;
+  padding: 5px;
 }
 
-li {
-  text-align: center;
-  color: red;
-  font-size: 1.5rem;
+#topScore {
+  margin-top: 1rem 0;
 }
+div {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+button {
+  padding: 5px;
+  width: 15%;
+}
+
 input {
-  margin: 2rem;
+  padding: 5px;
 }
