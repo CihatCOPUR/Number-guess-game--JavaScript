@@ -10,10 +10,10 @@ console.log(secretNumber);
 let remainigGuess = 5;
 
 check.onclick = () => {
-  if (guesNumber >= 0 && guesNumber <= 100) {
+  if ((guesNumber.value >= 0) & (guesNumber.value <= 100)) {
     remainigGuess--;
 
-    if (remainigGuess > 0) {
+    if (remainigGuess > -1) {
       if (guesNumber.value < secretNumber) {
         document.querySelector(
           "#info"
